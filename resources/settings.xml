@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
     <category label="128">
-        <setting label="30001" type="bool" id="yearsearchcsfd" default="true" />
+        <setting label="30001" type="bool" id="yearsearchcsfd" default="true"/>
         <setting label="30002" type="bool" id="titlepartsremove" default="false" />
         <setting type="sep"/>
         <setting label="30011" type="bool" id="tmdbset" default="true"/>
@@ -13,8 +13,8 @@
         <setting label="30031" type="bool" id="tmdbcast" default="false"/>
     </category>
     <category label="30200">
-        <setting label="30201" type="select" id="titleprimaryl" default="local" values="local|original|en|cs|sk"/>
-        <setting label="30202" type="bool" id="titlesecondary" default="true" />
+        <setting label="30201" type="select" id="titleprimaryl" default="local" values="local|original|filename|en|cs|sk"/>
+        <setting label="30202" type="bool" id="titlesecondary" default="true"/>
         <setting label="30203" type="select" id="titlesecondaryl" default="original" values="original|en" enable="eq(-1,true)"/>
         <setting label="30204" type="bool" id="titleswap" default="false" enable="eq(-2,true)"/>
         <setting label="30205" type="bool" id="titlesame" default="false" enable="eq(-3,true)"/>

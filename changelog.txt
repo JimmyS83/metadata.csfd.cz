@@ -1,8 +1,11 @@
+[B]3.12[/B]
+[added] filename jako primarni nazev
+
 [B]3.11[/B]
-[added] Slovak translation (mvalec)
+[added] Slovensky preklad (mvalec)
 
 [B]3.10[/B]
-[fix] get imdbid from https links
+[fix] imdbid z odkazu https
 
 [B]3.9[/B]
 [changed] prekopana volba a kombinace jazyku v nazvu filmu:
